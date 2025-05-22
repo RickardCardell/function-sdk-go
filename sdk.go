@@ -154,8 +154,8 @@ func Serve(fn v1.FunctionRunnerServiceServer, o ...ServeOption) error {
 
 	srv := grpc.NewServer(
 		            grpc.MaxRecvMsgSize(so.MaxRecvMsgSize),
-				    grpc.NumStreamWorkers(3),
-					grpc.MaxConcurrentStreams(4),
+				    grpc.NumStreamWorkers(1),
+					grpc.MaxConcurrentStreams(1),
 					grpc.Creds(so.Credentials))
 	reflection.Register(srv)
 	v1.RegisterFunctionRunnerServiceServer(srv, fn)
