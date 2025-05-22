@@ -1,4 +1,4 @@
-module github.com/crossplane/function-sdk-go
+module github.com/RickardCardell/function-sdk-go
 
 go 1.23
 
