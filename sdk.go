@@ -152,7 +152,11 @@ func Serve(fn v1.FunctionRunnerServiceServer, o ...ServeOption) error {
 		return errors.Wrapf(err, "cannot listen for %s connections at address %q", so.Network, so.Address)
 	}
 
-	srv := grpc.NewServer(grpc.MaxRecvMsgSize(so.MaxRecvMsgSize), grpc.Creds(so.Credentials))
+	srv := grpc.NewServer(
+		            grpc.MaxRecvMsgSize(so.MaxRecvMsgSize),
+				    grpc.NumStreamWorkers(3),
+					grpc.MaxConcurrentStreams(4),
+					grpc.Creds(so.Credentials))
 	reflection.Register(srv)
 	v1.RegisterFunctionRunnerServiceServer(srv, fn)
 	v1beta1.RegisterFunctionRunnerServiceServer(srv, ServeBeta(fn))
