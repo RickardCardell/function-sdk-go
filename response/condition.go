@@ -17,7 +17,7 @@ limitations under the License.
 package response
 
 import (
-	v1 "github.com/crossplane/function-sdk-go/proto/v1"
+	v1 "github.com/RickardCardell/function-sdk-go/proto/v1"
 )
 
 // ConditionOption allows further customization of the condition.

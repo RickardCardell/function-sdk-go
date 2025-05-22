@@ -23,9 +23,9 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/crossplane/function-sdk-go/errors"
-	v1 "github.com/crossplane/function-sdk-go/proto/v1"
-	"github.com/crossplane/function-sdk-go/resource"
+	"github.com/RickardCardell/function-sdk-go/errors"
+	v1 "github.com/RickardCardell/function-sdk-go/proto/v1"
+	"github.com/RickardCardell/function-sdk-go/resource"
 )
 
 // DefaultTTL is the default TTL for which a response can be cached.

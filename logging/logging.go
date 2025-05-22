@@ -27,7 +27,7 @@ import (
 
 	"github.com/crossplane/crossplane-runtime/pkg/logging"
 
-	"github.com/crossplane/function-sdk-go/errors"
+	"github.com/RickardCardell/function-sdk-go/errors"
 )
 
 // A Logger logs messages. Messages may be supplemented by structured data.

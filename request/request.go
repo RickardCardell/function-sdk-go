@@ -22,11 +22,11 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/crossplane/function-sdk-go/errors"
-	v1 "github.com/crossplane/function-sdk-go/proto/v1"
-	"github.com/crossplane/function-sdk-go/resource"
-	"github.com/crossplane/function-sdk-go/resource/composed"
-	"github.com/crossplane/function-sdk-go/resource/composite"
+	"github.com/RickardCardell/function-sdk-go/errors"
+	v1 "github.com/RickardCardell/function-sdk-go/proto/v1"
+	"github.com/RickardCardell/function-sdk-go/resource"
+	"github.com/RickardCardell/function-sdk-go/resource/composed"
+	"github.com/RickardCardell/function-sdk-go/resource/composite"
 )
 
 // GetInput from the supplied request. Input is loaded into the supplied object.

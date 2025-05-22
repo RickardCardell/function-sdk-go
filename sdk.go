@@ -32,9 +32,9 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/crossplane/function-sdk-go/logging"
-	v1 "github.com/crossplane/function-sdk-go/proto/v1"
-	"github.com/crossplane/function-sdk-go/proto/v1beta1"
+	"github.com/RickardCardell/function-sdk-go/logging"
+	v1 "github.com/RickardCardell/function-sdk-go/proto/v1"
+	"github.com/RickardCardell/function-sdk-go/proto/v1beta1"
 )
 
 // Default ServeOptions.

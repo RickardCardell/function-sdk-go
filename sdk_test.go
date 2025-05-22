@@ -26,13 +26,13 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"github.com/crossplane/function-sdk-go/errors"
-	v1 "github.com/crossplane/function-sdk-go/proto/v1"
-	"github.com/crossplane/function-sdk-go/proto/v1beta1"
-	"github.com/crossplane/function-sdk-go/request"
-	"github.com/crossplane/function-sdk-go/resource"
-	"github.com/crossplane/function-sdk-go/resource/composed"
-	"github.com/crossplane/function-sdk-go/response"
+	"github.com/RickardCardell/function-sdk-go/errors"
+	v1 "github.com/RickardCardell/function-sdk-go/proto/v1"
+	"github.com/RickardCardell/function-sdk-go/proto/v1beta1"
+	"github.com/RickardCardell/function-sdk-go/request"
+	"github.com/RickardCardell/function-sdk-go/resource"
+	"github.com/RickardCardell/function-sdk-go/resource/composed"
+	"github.com/RickardCardell/function-sdk-go/response"
 )
 
 var _ v1beta1.FunctionRunnerServiceServer = &BetaServer{}

@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/crossplane/function-sdk-go/errors"
-	"github.com/crossplane/function-sdk-go/resource/composed"
-	"github.com/crossplane/function-sdk-go/resource/composite"
+	"github.com/RickardCardell/function-sdk-go/errors"
+	"github.com/RickardCardell/function-sdk-go/resource/composed"
+	"github.com/RickardCardell/function-sdk-go/resource/composite"
 )
 
 // ConnectionDetails created or updated during an operation on an external

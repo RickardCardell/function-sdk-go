@@ -1,5 +1,5 @@
 # function-sdk-go
-[![CI](https://github.com/crossplane/function-sdk-go/actions/workflows/ci.yml/badge.svg)](https://github.com/crossplane/function-sdk-go/actions/workflows/ci.yml) ![GitHub release (latest SemVer)](https://img.shields.io/github/release/crossplane/function-sdk-go) [![Go Reference](https://pkg.go.dev/badge/github.com/crossplane/function-sdk-go.svg)](https://pkg.go.dev/github.com/crossplane/function-sdk-go)
+[![CI](https://github.com/RickardCardell/function-sdk-go/actions/workflows/ci.yml/badge.svg)](https://github.com/RickardCardell/function-sdk-go/actions/workflows/ci.yml) ![GitHub release (latest SemVer)](https://img.shields.io/github/release/crossplane/function-sdk-go) [![Go Reference](https://pkg.go.dev/badge/github.com/RickardCardell/function-sdk-go.svg)](https://pkg.go.dev/github.com/RickardCardell/function-sdk-go)
 
 The [Go][go] SDK for writing [composition functions][functions].
 
@@ -20,5 +20,5 @@ If you just want to jump in and get started, consider using the
 [functions]: https://docs.crossplane.io/latest/concepts/composition-functions
 [contributing guidelines]: https://github.com/crossplane/crossplane/tree/master/contributing
 [function guide]: https://docs.crossplane.io/knowledge-base/guides/write-a-composition-function-in-go
-[package docs]: https://pkg.go.dev/github.com/crossplane/function-sdk-go
+[package docs]: https://pkg.go.dev/github.com/RickardCardell/function-sdk-go
 [function-template-go]: https://github.com/crossplane/function-template-go

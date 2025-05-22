@@ -23,10 +23,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	v1 "github.com/crossplane/function-sdk-go/proto/v1"
-	"github.com/crossplane/function-sdk-go/resource"
-	"github.com/crossplane/function-sdk-go/resource/composed"
-	"github.com/crossplane/function-sdk-go/resource/composite"
+	v1 "github.com/RickardCardell/function-sdk-go/proto/v1"
+	"github.com/RickardCardell/function-sdk-go/resource"
+	"github.com/RickardCardell/function-sdk-go/resource/composed"
+	"github.com/RickardCardell/function-sdk-go/resource/composite"
 )
 
 func TestGetObservedCompositeResource(t *testing.T) {

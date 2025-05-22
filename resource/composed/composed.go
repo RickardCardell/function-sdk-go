@@ -27,7 +27,7 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/fieldpath"
 	"github.com/crossplane/crossplane-runtime/pkg/resource"
 
-	"github.com/crossplane/function-sdk-go/errors"
+	"github.com/RickardCardell/function-sdk-go/errors"
 )
 
 // Scheme used to determine the type of any runtime.Object passed to From.

@@ -24,8 +24,8 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 	"k8s.io/utils/ptr"
 
-	v1 "github.com/crossplane/function-sdk-go/proto/v1"
-	"github.com/crossplane/function-sdk-go/response"
+	v1 "github.com/RickardCardell/function-sdk-go/proto/v1"
+	"github.com/RickardCardell/function-sdk-go/response"
 )
 
 func TestResult(t *testing.T) {
